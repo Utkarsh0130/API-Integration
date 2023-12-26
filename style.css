@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: cornflowerblue;
+}
+.card{
+    border:1px solid black;
+    width:22%;
+    padding:15px;
+    display:flex;
+    flex-direction: column;
+    margin: 10px auto;
+    background-color: white;
+}.responsive {
+    
+    border: 1px solid red;
+    background-size: contain;
+    width: 98%;
+    height: 270px;
+}
